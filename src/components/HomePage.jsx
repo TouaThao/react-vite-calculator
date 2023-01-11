@@ -46,7 +46,7 @@ function HomePage(){
     }
 
     function handleClear() {
-        setCalc({
+        setDisplayValue({
          current: "0",
          total: "0",
          isInitial: true,
